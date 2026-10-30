@@ -1,0 +1,15 @@
+services:
+  app:
+      build: 
+        context: .
+        dockerfile: DockerFile
+      ports:
+      - "8000:8000"
+      image: myfastapiapp:latest
+
+
+# docker compose up # aa main che run krva nu ek j
+
+    #docker compose build
+    #docker run img_name # docker run myfastapiapp
+    #docker compose up   => એ image પરથી container automatically create + run કરશે.
