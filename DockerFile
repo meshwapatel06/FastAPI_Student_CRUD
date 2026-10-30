@@ -14,6 +14,3 @@ EXPOSE 8000
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
-# docker build -f DockerFile -t fastapi-app .
-# docker run --rm -p 8000:8000 fastapi-app
-# http://localhost:8000/docs
